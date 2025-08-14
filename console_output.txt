@@ -1,0 +1,54 @@
+? RUNNING SECURITY INCIDENT TESTS
+=====================================
+
+? Test: Valid Incident Creation
+? PASSED: Valid incident creation
+
+? Test: Null Parameter Validation
+? PASSED: Null incident ID validation
+? PASSED: Null threat type validation
+
+? Test: Risk Score Calculation
+? PASSED: Malware risk score calculation: 10.0
+? PASSED: Unauthorized access risk score calculation: 10.0
+
+? Test: Immediate Response Logic
+? PASSED: Critical incident requires immediate response
+? PASSED: Data breach requires immediate response
+
+? Test: Response Suggestions
+? PASSED: Malware response suggestions generated
+   Suggestions: 4 items
+
+? Test: Status Updates
+? PASSED: Status updates work correctly
+
+? Test: Builder Pattern
+? PASSED: Builder pattern works correctly
+
+? Test: Encapsulation
+? PASSED: Proper encapsulation maintained
+
+==================================================
+? TEST RESULTS SUMMARY
+==================================================
+Total Tests: 11
+Passed: 11 ?
+Failed: 0 ?
+Success Rate: 100.0%
+
+? ALL TESTS PASSED! System is working correctly.
+[H[2J=== CYBERSECURITY INCIDENT RESPONSE CONSOLE ===
+
+??  SYSTEM STATUS:
+   ?? Active Incidents: 0 Open, 0 Resolved Today
+   ?? Threat Level: LOW (Score: 0.0/10)
+   ?? Network Health: 100% (0 anomalies detected)
+   ?? Last Scan: 0 seconds ago
+
+? RECENT THREATS:
+   No active threats detected
+
+
+Options: [R]eport Incident [A]nalyze [S]ecurity Report [H]elp [Q]uit
+> Shutting down security console...
